@@ -1,0 +1,34 @@
+{
+  "name": "i-own-it-server",
+  "version": "0.0.1",
+  "description": "node express server for i own it demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyodell/i-own-it-server2.git"
+  },
+  "author": "Jeremy Odell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremyodell/i-own-it-server2/issues"
+  },
+  "homepage": "https://github.com/jeremyodell/i-own-it-server2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "2.7.1",
+    "errorhandler": "1.4.3",
+    "express": "4.13.4",
+    "express-jwt": "3.3.0",
+    "express-session": "1.13.0",
+    "jsonwebtoken": "7.1.9",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "pg-promise": "^8.4.6",
+    "request": "2.69.0",
+    "slug": "0.9.1",
+    "underscore": "1.8.3"
+  }
+}
